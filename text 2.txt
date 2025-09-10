@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Sunnie Collection</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #f5f5f5;
+    }
+    header {
+      background: linear-gradient(90deg, #000 0%, #b8860b 100%);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: gold;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #111;
+      padding: 1rem;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .item {
+      background: #111;
+      border: 2px solid gold;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .item h3 {
+      margin: 0.5rem 0;
+      color: gold;
+    }
+    footer {
+      text-align: center;
+      background: #111;
+      padding: 2rem;
+      color: #aaa;
+    }
+    footer a {
+      color: gold;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prince Sunnie Collection</h1>
+    <p>Streetwear with an African touch — Modern, Bold & Classic</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Prince Sunnie Collection creates <strong>simple but classic streetwear</strong>, blending modern designs with bold African vibes. Our mission is to bring comfort, style, and cultural identity into everyday wear.
+    </p>
+  </section>
+
+  <section id="catalog">
+    <h2>Design Catalog</h2>
+    <div class="gallery">
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250?text=Jogger+Design+1" alt="Jogger Design" />
+        <h3>Jogger - Classic Black Gold</h3>
+        <p>Modern street jogger with bold African-inspired trims.</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250?text=Jogger+Design+2" alt="Jogger Design" />
+        <h3>Jogger - Urban Fit</h3>
+        <p>Simple yet stylish joggers with a comfortable cut.</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250?text=Long+Sleeve+1" alt="Long Sleeve Design" />
+        <h3>Long Sleeve - Gold Accent</h3>
+        <p>Black long sleeve with golden African pattern detail.</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250?text=Long+Sleeve+2" alt="Long Sleeve Design" />
+        <h3>Long Sleeve - Modern Bold</h3>
+        <p>Minimalist design with a powerful bold finish.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Socials</h2>
+    <p>Email: <a href="mailto:info@princesunnie.com">info@princesunnie.com</a></p>
+    <p>
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Facebook</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prince Sunnie Collection. All rights reserved.</p>
+  </footer>
+</body>
+</html>
